@@ -132,8 +132,8 @@
                             <div class="card m-2">
                                 <img src="images/seguimiento.png" height="30px" width="30px" alt="Incident Image">
                                 <div class="card-body">
-                                    <h5 class="card-title" th:text="${incidente.servicioAfectado.establecimiento.nombre}"></h5>
-                                    <p class="card-text" th:text="${incidente.servicioAfectado.nombre}"></p>
+                                    <h5 class="card-title" th:text="${incidente.prestacionDeServicioNombre}"></h5>
+                                    <p class="card-text" th:text="${incidente.entidadNombre}"></p>
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item" th:text="'Descripción: ' + ${incidente.descripcion}"></li>
